@@ -241,11 +241,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,10 +264,11 @@
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
-      "mathpad:Open Mathpad": false
+      "mathpad:Open Mathpad": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "97e7c27111e053ba",
+  "active": "f5949b91791bd059",
   "lastOpenFiles": [
     "content/测试排版内容/Welcome.md",
     "README.md",

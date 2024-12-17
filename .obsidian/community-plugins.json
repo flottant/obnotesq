@@ -24,5 +24,6 @@
   "image2latex",
   "mathlinks",
   "mathpad",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-linter"
 ]
