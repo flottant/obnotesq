@@ -33,6 +33,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BLUE_ISLAND_024110F00 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e., PR comments)
           action: "upload"
+          app_build_command: 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh" && nvm install 22  && nvm use 22  && npm install && npx quartz build'
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
