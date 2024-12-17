@@ -23,7 +23,7 @@ jobs:
           submodules: true
           lfs: false
       - name: Install dependencies
-        run: sudo apt install nvm && nvm install node && npm install 
+        run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && nvm install 22 && nvm use 22  && npm install 
       - name: Run custom build command
         run: npx quartz build
       - name: Build And Deploy
