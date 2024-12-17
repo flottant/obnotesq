@@ -19,12 +19,12 @@
   "tag-wrangler",
   "obsidian-banners",
   "obsidian-dynamic-highlights",
-  "obsidian-paste-image-rename",
   "terminal",
   "image2latex",
   "mathlinks",
   "mathpad",
   "omnisearch",
   "obsidian-linter",
-  "inline-math"
+  "inline-math",
+  "obsidian-custom-attachment-location"
 ]

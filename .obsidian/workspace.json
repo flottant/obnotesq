@@ -270,11 +270,16 @@
   },
   "active": "9dd5dd8acc0c35e8",
   "lastOpenFiles": [
-    "content/测试排版内容/测试公式.md",
+    "content/assets/index/94384092_p0.jpg",
     "content/index.md",
-    "content/Welcome.md_Attachments/index-1.png",
-    "content/Welcome.md_Attachments",
+    "content/assets/index",
+    "content/assets",
     "content/数学/ODE.md",
+    "content/数学/Welcome.md_Attachments/ODE-1.png",
+    "content/数学/Welcome.md_Attachments",
+    "content/Welcome.md_Attachments/index-1.png",
+    "content/测试排版内容/测试公式.md",
+    "content/Welcome.md_Attachments",
     "content/测试排版内容/Welcome.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
@@ -288,9 +293,6 @@
     "node_modules/shebang-regex/readme.md",
     "node_modules/shebang-regex/package.json",
     "node_modules/shebang-regex/index.js",
-    "node_modules/shebang-regex/index.d.ts",
-    "node_modules/shebang-regex",
-    "node_modules/shebang-command/license",
     "node_modules/shebang-command/readme.md",
     "node_modules/parse-css-color/README.md",
     "node_modules/parse-css-color/CHANGELOG.md",
@@ -312,8 +314,6 @@
     "node_modules/yargs/node_modules/emoji-regex/README.md",
     "node_modules/yargs/README.md",
     "node_modules/y18n/README.md",
-    "node_modules/psl/browserstack-logo.svg",
-    "node_modules/layout-base/layout-schema.png",
-    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png"
+    "node_modules/psl/browserstack-logo.svg"
   ]
 }

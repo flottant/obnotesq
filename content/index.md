@@ -3,7 +3,7 @@ title: 欢迎！
 ---
 欢迎来到我的笔记。
 
-![[index-1.png]]
+![[94384092_p0.jpg]]
 
 
 > [!Quote] From
