@@ -21,5 +21,9 @@
   "obsidian-dynamic-highlights",
   "obsidian-paste-image-rename",
   "remember-cursor-position",
-  "terminal"
+  "terminal",
+  "mathlinks",
+  "obsidian-math-plus",
+  "mathpad",
+  "image2latex"
 ]

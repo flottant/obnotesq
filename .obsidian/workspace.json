@@ -214,13 +214,23 @@
               "icon": "lucide-list",
               "title": "测试公式 的大纲"
             }
+          },
+          {
+            "id": "b9b48ec73ba53e26",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,10 +248,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "f9dc2032340ef442",
+  "active": "b9b48ec73ba53e26",
   "lastOpenFiles": [
     "content/index.md",
     "content/数学/ODE.md",
