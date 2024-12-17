@@ -1,0 +1,9 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "textFontFamily": "Noto Serif SC",
+  "monospaceFontFamily": "Cascadia Code",
+  "interfaceFontFamily": "Copperplate",
+  "baseFontSize": 22,
+  "baseFontSizeAction": true
+}
