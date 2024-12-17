@@ -25,5 +25,6 @@
   "mathlinks",
   "mathpad",
   "omnisearch",
-  "obsidian-linter"
+  "obsidian-linter",
+  "inline-math"
 ]
