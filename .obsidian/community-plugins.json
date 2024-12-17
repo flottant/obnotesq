@@ -22,9 +22,8 @@
   "obsidian-paste-image-rename",
   "remember-cursor-position",
   "terminal",
-  "mathlinks",
-  "obsidian-math-plus",
-  "mathpad",
   "image2latex",
-  "mathlive-in-editor-mode"
+  "mathlive-in-editor-mode",
+  "mathlinks",
+  "mathpad"
 ]

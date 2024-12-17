@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/测试排版内容/测试公式.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "测试公式"
@@ -216,7 +216,7 @@
             }
           },
           {
-            "id": "b9b48ec73ba53e26",
+            "id": "97e7c27111e053ba",
             "type": "leaf",
             "state": {
               "type": "mathpad-view",
