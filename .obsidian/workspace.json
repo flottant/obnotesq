@@ -224,10 +224,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/测试排版内容/测试公式.md"
+                "file": "content/index.md"
               },
               "icon": "lucide-list",
-              "title": "测试公式 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -271,12 +271,14 @@
   "active": "9dd5dd8acc0c35e8",
   "lastOpenFiles": [
     "content/测试排版内容/测试公式.md",
+    "content/index.md",
+    "content/Welcome.md_Attachments/index-1.png",
+    "content/Welcome.md_Attachments",
     "content/数学/ODE.md",
     "content/测试排版内容/Welcome.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
     "conflict-files-obsidian-git.md",
-    "content/index.md",
     "content/数学",
     "content/测试排版内容/Welcome.md_Attachments/Welcome-1.jpg",
     "content/测试排版内容/Welcome.md_Attachments",
@@ -290,7 +292,6 @@
     "node_modules/shebang-regex",
     "node_modules/shebang-command/license",
     "node_modules/shebang-command/readme.md",
-    "node_modules/shebang-command/package.json",
     "node_modules/parse-css-color/README.md",
     "node_modules/parse-css-color/CHANGELOG.md",
     "node_modules/nlcst-to-string/readme.md",
@@ -311,10 +312,8 @@
     "node_modules/yargs/node_modules/emoji-regex/README.md",
     "node_modules/yargs/README.md",
     "node_modules/y18n/README.md",
-    "node_modules/y18n/CHANGELOG.md",
     "node_modules/psl/browserstack-logo.svg",
     "node_modules/layout-base/layout-schema.png",
-    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
-    "node_modules/cytoscape-fcose/demo/incrementalConstraints.gif"
+    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png"
   ]
 }
