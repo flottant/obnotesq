@@ -1,5 +1,7 @@
 {
   "attachmentFolderPath": "./Welcome.md_Attachments",
   "newLinkFormat": "shortest",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true
 }
