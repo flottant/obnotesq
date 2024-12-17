@@ -23,7 +23,7 @@ jobs:
           submodules: true
           lfs: false
       - name: Install dependencies
-        run: nvm install node && npm install 
+        run: apt install nvm && nvm install node && npm install 
       - name: Run custom build command
         run: npx quartz build
       - name: Build And Deploy
