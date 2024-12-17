@@ -21,8 +21,7 @@
   },
   "engines": {
     "npm": ">=9.3.1",
-    "node": "20 || >=22",
-    "nodejs": "20 || >=22"
+    "node": "20 || >=22"
   },
   "keywords": [
     "site generator",
