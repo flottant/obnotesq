@@ -1,25 +1,12 @@
-## 0.1 变量分离方程
-
-
-$$
-\displaystyle \frac{\mathrm{d}{y}}{\mathrm{d}{x}}=f(y)g(y) 
-$$
-对于此类方程，将  $\displaystyle x$ 与  $\displaystyle y$ 移至方程式的两边，
-$$
-\displaystyle \frac{1}{g(y)}\mathrm{d}y = f(x)\mathrm{d}x
-$$
-再对两边同时积分，有 
-$$
-\displaystyle \int \frac{\mathrm{d}{y}}{{g(y)}} = \int f(x) \mathrm{d}x + C
-$$  
-
-## 0.2 齐次方程
-
+## 0.1 基本概念
 
 $$
-\displaystyle \frac{\mathrm{d}y}{\mathrm{d}x} = f\left( \frac{y}{x} \right) 
+\displaystyle F(x,y',y'',y^{(n)}) = 0
 $$
+被称为常微分方程。其中  $\displaystyle n$ 称为常微分方程的阶。 
 
-$$
-\displaystyle \frac{\mathrm{d}u}{\mathrm{d}x} = \frac{1}{x} (f(u)-u)
-$$
+左端函数 $\displaystyle F$ 对未知函数  $\displaystyle y$ 与  $\displaystyle y$ 各阶全体而言是一次的，则称为线性常微分方程。
+
+ $\displaystyle y''+ yy' = 0$   、 $\displaystyle \frac{\mathrm{d}{y}}{\mathrm{d}{x}} = y^{2}$ 则被称为是非线性常微分方程。
+
+   
