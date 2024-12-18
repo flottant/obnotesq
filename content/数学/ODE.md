@@ -17,5 +17,9 @@ $$
 
 
 $$
-\displaystyle \frac{\mathrm{d}y}{\mathrm{d}x} = f()
+\displaystyle \frac{\mathrm{d}y}{\mathrm{d}x} = f\left( \frac{y}{x} \right) 
+$$
+
+$$
+\displaystyle \frac{\mathrm{d}u}{\mathrm{d}x} = \frac{1}{x} (f(u)-u)
 $$
