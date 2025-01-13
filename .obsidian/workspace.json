@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c1abfe15762f12cc",
@@ -215,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,7 +237,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9dd5dd8acc0c35e8",
+  "active": "97e7c27111e053ba",
   "lastOpenFiles": [
     "content/流体力学/assets/流体力学/流体力学-20250113171523181.png",
     "content/流体力学/assets/流体力学",
