@@ -5,5 +5,8 @@
   "monospaceFontFamily": "Cascadia Code",
   "interfaceFontFamily": "Noto Sans CJK SC",
   "baseFontSize": 16,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "Blue Topaz Legacy"
+  ]
 }
