@@ -9,4 +9,6 @@ $$
 
  $\displaystyle y''+ yy' = 0$   、 $\displaystyle \frac{\mathrm{d}{y}}{\mathrm{d}{x}} = y^{2}$ 则被称为是非线性常微分方程。
 
+
+
    
