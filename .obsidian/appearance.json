@@ -7,7 +7,6 @@
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "Blue Topaz Legacy",
-    "Sidenote Auto-Adjust Module"
+    "Blue Topaz Legacy"
   ]
 }
