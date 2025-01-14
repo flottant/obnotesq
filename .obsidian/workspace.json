@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/流体力学/流体力学.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "流体力学"
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +235,8 @@
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
       "mathpad:Open Mathpad": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "formatto-format:Format Document": false
     }
   },
   "active": "81cb59da537323bc",
