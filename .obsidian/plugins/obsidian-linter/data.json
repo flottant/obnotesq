@@ -161,7 +161,7 @@
       "enabled": false
     },
     "remove-multiple-spaces": {
-      "enabled": false
+      "enabled": true
     },
     "strong-style": {
       "enabled": false,
@@ -180,7 +180,7 @@
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
@@ -196,13 +196,13 @@
       "enabled": false
     },
     "empty-line-around-math-blocks": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-tables": {
-      "enabled": false
+      "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
+      "enabled": true,
       "bottom": true,
       "empty-line-after-yaml": true
     },
@@ -210,7 +210,7 @@
       "enabled": false
     },
     "move-math-block-indicators-to-their-own-line": {
-      "enabled": false
+      "enabled": true
     },
     "paragraph-blank-lines": {
       "enabled": false
@@ -242,7 +242,7 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
+      "enabled": true,
       "twp-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
@@ -261,16 +261,16 @@
       "enabled": false
     },
     "remove-leading-or-trailing-whitespace-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "remove-leftover-footnotes-from-quote-on-paste": {
       "enabled": false
     },
     "remove-multiple-blank-lines-on-paste": {
-      "enabled": false
+      "enabled": true
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "lintOnFileChange": false,

@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "content/流体力学/流体力学.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "流体力学"
