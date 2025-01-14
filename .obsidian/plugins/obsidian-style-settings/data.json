@@ -398,7 +398,7 @@
   "Blue-Topaz-Legacy@@colorful-ordered-list": true,
   "Blue-Topaz-Legacy@@show-border-table": true,
   "Blue-Topaz-Legacy@@full-width-table": false,
-  "Blue-Topaz-Legacy@@table-style-options": "table-style-one",
+  "Blue-Topaz-Legacy@@table-style-options": "three-line-table",
   "Blue-Topaz-Legacy@@colorful-unordered-list": true,
   "Blue-Topaz-Legacy@@rainbow-ordered-list": true,
   "Blue-Topaz-Legacy@@rainbow-checkbox": true,
@@ -470,5 +470,6 @@
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A",
   "Blue-Topaz-Legacy@@font-family-vault": "\"\"",
   "Blue-Topaz-Legacy@@font-family-em": "\"\"",
-  "Blue-Topaz-Legacy@@font-family-strong": "'Noto Serif SC'"
+  "Blue-Topaz-Legacy@@font-family-strong": "'Noto Serif SC'",
+  "Blue-Topaz-Legacy@@table-format-options": "wrapped-table"
 }
