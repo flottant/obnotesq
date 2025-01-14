@@ -1,9 +1,9 @@
 {
   "cssTheme": "Minimal",
   "theme": "moonstone",
-  "textFontFamily": "Noto Serif SC",
-  "monospaceFontFamily": "Cascadia Code",
-  "interfaceFontFamily": "Noto Sans CJK SC",
+  "textFontFamily": "Noto Serif CJK SC,Noto Serif SC",
+  "monospaceFontFamily": "Cascadia Code,Noto Serif CJK SC",
+  "interfaceFontFamily": "Noto Sans CJK SC,Noto Serif CJK SC",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
