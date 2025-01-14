@@ -180,7 +180,7 @@
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": true
+      "enabled": false
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
@@ -196,13 +196,13 @@
       "enabled": false
     },
     "empty-line-around-math-blocks": {
-      "enabled": true
+      "enabled": false
     },
     "empty-line-around-tables": {
-      "enabled": true
+      "enabled": false
     },
     "heading-blank-lines": {
-      "enabled": true,
+      "enabled": false,
       "bottom": true,
       "empty-line-after-yaml": true
     },
@@ -213,7 +213,7 @@
       "enabled": true
     },
     "paragraph-blank-lines": {
-      "enabled": true
+      "enabled": false
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
       "enabled": false

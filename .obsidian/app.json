@@ -2,7 +2,7 @@
   "attachmentFolderPath": "./Welcome.md_Attachments",
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "showLineNumber": true,
   "promptDelete": false,
   "readableLineLength": false,
