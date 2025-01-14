@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
   "showLineNumber": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false
 }
