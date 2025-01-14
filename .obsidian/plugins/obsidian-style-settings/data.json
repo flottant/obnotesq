@@ -481,5 +481,6 @@
   "Blue-Topaz-Legacy@@h6-margin": "24px 0px",
   "Blue-Topaz-Legacy@@h4-indent": "0px",
   "Blue-Topaz-Legacy@@h5-indent": "0px",
-  "Blue-Topaz-Legacy@@h6-indent": "0px"
+  "Blue-Topaz-Legacy@@h6-indent": "0px",
+  "minimal-style@@callouts-style": "callouts-outlined"
 }
