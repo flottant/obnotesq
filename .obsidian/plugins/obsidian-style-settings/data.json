@@ -468,8 +468,8 @@
   "Blue-Topaz-Legacy@@notebook-embed": false,
   "Blue-Topaz-Legacy@@bg-color-notebook@@light": "#FFFCF1",
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A",
-  "Blue-Topaz-Legacy@@font-family-vault": "\"\"",
+  "Blue-Topaz-Legacy@@font-family-vault": "'Noto Serif SC'",
   "Blue-Topaz-Legacy@@font-family-em": "\"\"",
   "Blue-Topaz-Legacy@@font-family-strong": "'Noto Serif SC'",
-  "Blue-Topaz-Legacy@@table-format-options": "wrapped-table"
+  "Blue-Topaz-Legacy@@table-format-options": "no-wrapped-table-cell"
 }
