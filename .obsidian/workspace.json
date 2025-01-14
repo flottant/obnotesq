@@ -241,6 +241,11 @@
   },
   "active": "81cb59da537323bc",
   "lastOpenFiles": [
+    "content/流体力学/assets/流体力学/流体力学-20250114185919195.png",
+    "content/流体力学/assets/流体力学/流体力学-20250114185425413.png",
+    "content/流体力学/assets/流体力学/流体力学-20250114185322173.png",
+    "content/流体力学/assets/流体力学/流体力学-20250114185142363.png",
+    "content/流体力学/assets/流体力学/流体力学-20250114184954740.png",
     "content/流体力学/Tldraw 2025-01-14 12.54凌晨.md",
     "content/流体力学/流体力学.md",
     "Excalidraw/Drawing 2025-01-14 00.54.17.excalidraw.md",
@@ -275,17 +280,12 @@
     "node_modules/nlcst-to-string/readme.md",
     "node_modules/data-urls/README.md",
     "node_modules/@tweenjs/tween.js/README.md",
-    "quartz/static/icon.png",
-    "quartz/static/og-image.png",
-    "public/content/测试排版内容/Welcome.md_Attachments/Welcome-1.jpg",
-    "public/static/icon.png",
     "node_modules/zwitch/readme.md",
     "node_modules/yoga-wasm-web/README.md",
     "node_modules/yargs-parser/README.md",
     "node_modules/yargs-parser/CHANGELOG.md",
     "node_modules/yargs/node_modules/strip-ansi/readme.md",
     "node_modules/yargs/node_modules/string-width/readme.md",
-    "node_modules/yargs/node_modules/ansi-regex/readme.md",
-    "node_modules/yargs/node_modules/emoji-regex/README.md"
+    "node_modules/yargs/node_modules/ansi-regex/readme.md"
   ]
 }
