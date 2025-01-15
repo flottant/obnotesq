@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/流体力学/流体力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "流体力学"
             }
           }
         ]
@@ -241,6 +241,7 @@
   },
   "active": "98481d4c4e94583e",
   "lastOpenFiles": [
+    "content/index.md",
     "content/流体力学/流体力学.md",
     "content/数学/ODE.md",
     "content/流体力学/assets/流体力学/流体力学-20250114192129804.png",
@@ -260,7 +261,6 @@
     "content/流体力学/assets",
     "content/流体力学",
     "content/测试排版内容/测试公式.md",
-    "content/index.md",
     "content/assets/index",
     "content/assets",
     "content/数学/Welcome.md_Attachments",
