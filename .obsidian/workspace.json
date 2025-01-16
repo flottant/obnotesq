@@ -215,8 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,7 +240,7 @@
       "formatto-format:Format Document": false
     }
   },
-  "active": "98481d4c4e94583e",
+  "active": "97e7c27111e053ba",
   "lastOpenFiles": [
     "content/流体力学/assets/流体力学/流体力学-20250115204728950.png",
     "content/流体力学/assets/流体力学/流体力学-20250115203833613.png",
