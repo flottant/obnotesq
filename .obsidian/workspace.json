@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c1abfe15762f12cc",
@@ -199,23 +198,14 @@
               "icon": "lucide-list",
               "title": "index 的大纲"
             }
-          },
-          {
-            "id": "97e7c27111e053ba",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {},
-              "icon": "sigma",
-              "title": "Mathpad"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,7 +230,7 @@
       "formatto-format:Format Document": false
     }
   },
-  "active": "97e7c27111e053ba",
+  "active": "98481d4c4e94583e",
   "lastOpenFiles": [
     "content/流体力学/assets/流体力学/流体力学-20250115204728950.png",
     "content/流体力学/assets/流体力学/流体力学-20250115203833613.png",
