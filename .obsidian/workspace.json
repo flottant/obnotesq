@@ -4,24 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "f8ea0e99d89ad140",
-        "type": "tabs",
+        "id": "b74e79109d8b242a",
+        "type": "split",
         "children": [
           {
-            "id": "98481d4c4e94583e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/流体力学/流体力学.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "流体力学"
-            }
+            "id": "f8ea0e99d89ad140",
+            "type": "tabs",
+            "dimension": 45.68627450980392,
+            "children": [
+              {
+                "id": "98481d4c4e94583e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "content/流体力学/流体力学.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "流体力学"
+                },
+                "group": "ac908288a83bd28f"
+              }
+            ]
+          },
+          {
+            "id": "7298d576adfe8ab2",
+            "type": "tabs",
+            "dimension": 54.31372549019608,
+            "children": [
+              {
+                "id": "02a1a44572eb5aa6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "content/流体力学/流体力学.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "流体力学"
+                },
+                "group": "ac908288a83bd28f"
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -233,6 +264,7 @@
   },
   "active": "98481d4c4e94583e",
   "lastOpenFiles": [
+    "content/流体力学/assets/流体力学/流体力学-20250116155254940.png",
     "content/流体力学/assets/流体力学/流体力学-20250115204728950.png",
     "content/流体力学/assets/流体力学/流体力学-20250115203833613.png",
     "content/流体力学/assets/流体力学/cb4553c1b76d8a91386acb8e711b13b.jpg",
@@ -243,7 +275,6 @@
     "content/流体力学/assets/流体力学/流体力学-20250115112912656.png",
     "content/流体力学/assets/流体力学/流体力学-20250115112850706.png",
     "content/流体力学/assets/流体力学/流体力学-20250115112816519.png",
-    "content/流体力学/assets/流体力学/流体力学-20250115112715939.png",
     "content/index.md",
     "content/流体力学/流体力学.md",
     "content/数学/ODE.md",
