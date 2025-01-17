@@ -257,9 +257,7 @@
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
-      "mathpad:Open Mathpad": false,
-      "omnisearch:Omnisearch": false,
-      "formatto-format:Format Document": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "98481d4c4e94583e",
