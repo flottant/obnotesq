@@ -4,7 +4,7 @@
   "textFontFamily": "Noto Serif CJK SC,Noto Serif SC",
   "monospaceFontFamily": "Cascadia Code,Noto Serif CJK SC",
   "interfaceFontFamily": "Noto Sans CJK SC,Noto Serif CJK SC",
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "Blue Topaz Legacy"
