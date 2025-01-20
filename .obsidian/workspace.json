@@ -250,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,6 +276,10 @@
   },
   "active": "ae795c0d9628c252",
   "lastOpenFiles": [
+    "content/流体力学/assets/流体力学/流体力学-20250120104120409.png",
+    "content/流体力学/assets/流体力学/流体力学-20250120104037116.png",
+    "content/流体力学/assets/流体力学/流体力学-20250120103933226.png",
+    "content/流体力学/assets/流体力学/流体力学-20250120103639120.png",
     "content/流体力学/assets/流体力学/流体力学-20250119162438965.png",
     "content/流体力学/assets/流体力学/流体力学-20250119162413634.png",
     "content/流体力学/assets/流体力学/流体力学-20250119162339373.png",
@@ -283,10 +288,6 @@
     "content/流体力学/assets/流体力学/流体力学-20250119152949161.png",
     "content/流体力学/assets/流体力学/流体力学-20250119145933818.png",
     "content/流体力学/assets/流体力学/流体力学-20250119110209134.png",
-    "content/流体力学/assets/流体力学/流体力学-20250119105916751.png",
-    "content/流体力学/assets/流体力学/流体力学-20250119105533213.png",
-    "content/流体力学/assets/流体力学/流体力学-20250119104021252.png",
-    "content/流体力学/assets/流体力学/流体力学-20250119103754842.png",
     "temp.md",
     "content/流体力学/流体力学.md",
     "content/index.md",
