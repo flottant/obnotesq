@@ -40,8 +40,19 @@
                   "icon": "lucide-file",
                   "title": "temp"
                 }
+              },
+              {
+                "id": "17e1fd37ec4ffbb2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新标签页"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "7f52cd8cfc2aebab",
@@ -274,8 +285,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae795c0d9628c252",
+  "active": "29d003f203745461",
   "lastOpenFiles": [
+    "content/流体力学/流体力学.md",
     "content/流体力学/assets/流体力学/流体力学-20250120125053071.png",
     "content/流体力学/assets/流体力学/流体力学-20250120125039849.png",
     "content/流体力学/assets/流体力学/流体力学-20250120125013133.png",
@@ -286,10 +298,8 @@
     "content/流体力学/assets/流体力学/流体力学-20250120124544814.png",
     "content/流体力学/assets/流体力学/流体力学-20250120124514441.png",
     "content/流体力学/assets/流体力学/流体力学-20250120124408376.png",
-    "content/流体力学/assets/流体力学/流体力学-20250120123953900.png",
     "content/流体力学/流体力学.md.bak",
     "temp.md",
-    "content/流体力学/流体力学.md",
     "content/index.md",
     "content/数学/ODE.md",
     "content/流体力学/Tldraw 2025-01-14 12.54凌晨.md",
