@@ -4,79 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "fe6978c19ae95d74",
-        "type": "split",
+        "id": "695fc4cac25dcbc3",
+        "type": "tabs",
         "children": [
           {
-            "id": "695fc4cac25dcbc3",
-            "type": "tabs",
-            "dimension": 80.3921568627451,
-            "children": [
-              {
-                "id": "ae795c0d9628c252",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "content/流体力学/流体力学.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "流体力学"
-                },
-                "group": "90e9399a128d49e0"
+            "id": "ae795c0d9628c252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/流体力学/流体力学.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "29d003f203745461",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "temp.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "temp"
-                }
-              },
-              {
-                "id": "17e1fd37ec4ffbb2",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "新标签页"
-                }
-              }
-            ]
+              "icon": "lucide-file",
+              "title": "流体力学"
+            }
           },
           {
-            "id": "7f52cd8cfc2aebab",
-            "type": "tabs",
-            "dimension": 19.607843137254903,
-            "children": [
-              {
-                "id": "463fac1e31a0d4a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "content/流体力学/流体力学.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "流体力学"
-                },
-                "group": "90e9399a128d49e0"
-              }
-            ]
+            "id": "29d003f203745461",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temp"
+            }
+          },
+          {
+            "id": "17e1fd37ec4ffbb2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -286,6 +255,10 @@
   },
   "active": "ae795c0d9628c252",
   "lastOpenFiles": [
+    "content/流体力学/assets/流体力学/流体力学-20250121162013675.png",
+    "content/流体力学/assets/流体力学/流体力学-20250121161928349.png",
+    "content/流体力学/assets/流体力学/流体力学-20250121161712417.png",
+    "content/流体力学/assets/流体力学/流体力学-20250121161454431.png",
     "temp.md",
     "content/流体力学/流体力学.md",
     "content/流体力学/assets/流体力学/流体力学-20250120125053071.png",
@@ -295,9 +268,6 @@
     "content/流体力学/assets/流体力学/流体力学-20250120124838427.png",
     "content/流体力学/assets/流体力学/流体力学-20250120124817726.png",
     "content/流体力学/assets/流体力学/流体力学-20250120124616607.png",
-    "content/流体力学/assets/流体力学/流体力学-20250120124544814.png",
-    "content/流体力学/assets/流体力学/流体力学-20250120124514441.png",
-    "content/流体力学/assets/流体力学/流体力学-20250120124408376.png",
     "content/流体力学/流体力学.md.bak",
     "content/index.md",
     "content/数学/ODE.md",
