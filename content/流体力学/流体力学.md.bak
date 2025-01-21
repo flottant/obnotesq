@@ -1704,28 +1704,26 @@ $$\rho\overline{v'(\overline{u} + u')}dA = \rho(\overline{v'u} + \overline{u'v'}
 根据动量定理，$\rho\overline{u'v'}dA$表示作用在与$x$轴平行的面积$dA$平面上的剪切摩擦力。单位面积上的该力即为剪应力。当$y$方向速度$v' > 0$时，流体向上移动，从$\overline{u}$较小的位置移动到较大的位置，此时$u' < 0$；反之，当$v' < 0$时，$u' > 0$。因此，$u'v'$的时间平均值$\overline{u'v'}$为负，为了使产生的剪应力为正，用$-\rho\overline{u'v'}$表示。这种剪应力称为雷诺应力（Reynolds stress）。通过量纲分析可知其单位为：
 $$[-\rho\overline{u'v'}] = \frac{kg}{m^3}(\frac{m}{s})^2 = \frac{kg \cdot m/s^2}{m^2} = \frac{N}{m^2} = Pa$$
 与式中的粘性剪应力$\tau$单位相同。
-如图6.8所示，在湍流中，可认为流体的混合是流体携带的动量在距离 $l$ 内移动后与周围流体混合的结果。速度脉动 $|u| = l|\frac{d\overline{u}}{dy}|$ ， $|v| \approx |u|$ 。考虑到雷诺应力与速度梯度 $\frac{d\overline{u}}{dy}$ 同号，可表示为：
-$$-\rho\overline{u'v'} = \rho l^2|{\frac{d\overline{u}}{dy}}|\frac{d\overline{u}}{dy} $$
+![[流体力学-20250121200643050.png|inlL|200]] 如图6.8所示，在湍流中，可认为流体的混合是流体携带的动量在距离 $l$ 内移动后与周围流体混合的结果。速度脉动 $|u| = l|\frac{d\overline{u}}{dy}|$ ， $|v| \approx |u|$ 。考虑到雷诺应力与速度梯度 $\frac{d\overline{u}}{dy}$ 同号，可表示为：
+$$-\rho\overline{u'v'} = \rho l^2|\frac{d\overline{u}}{dy}|\frac{d\overline{u}}{dy} $$
 这里的移动距离$l$被称为普朗特（Prandtl）混合距离或混合长度（mixing length）。此外，参照层流粘性剪应力$\tau$的表达式（6.8），雷诺应力也可改写为：
 $$-\rho\overline{u'v'} = \mu_t\frac{d\overline{u}}{dy} $$
-式中右边的$\mu_t$称为湍流粘度（eddy viscosity或turbulence viscosity），它与流体的物性常数粘度$\mu$不同，需要区别对待。粘度$\mu$在温度不变时为定值，而由式（6.23）可知，湍流粘度$\mu_t = \rho l^2|\frac{d\overline{u}}{dy}|$，其大小取决于混合长度$l$，而混合长度$l$由紊流强度（turbulence intensity）和速度梯度变化决定。
-
-湍流中的剪应力$\tau$实际上是由雷诺应力和流体粘性产生的粘性剪应力共同作用的结果，可表示为：
+式中右边的 $\mu_t$ 称为湍流粘度（eddy viscosity 或 turbulence viscosity），它与流体的物性常数粘度 $\mu$ 不同，需要区别对待。粘度 $\mu$ 在温度不变时为定值，而由式可知，湍流粘度 $\mu_t = \rho l^2|\frac{d\overline{u}}{dy}|$ ，其大小取决于混合长度 $l$ ，而混合长度 $l$ 由紊流强度（turbulence intensity）和速度梯度变化决定。
+![[流体力学-20250121200814600.png|inlL|200]] 湍流中的剪应力 $\tau$ 实际上是由雷诺应力和流体粘性产生的粘性剪应力共同作用的结果，可表示为：
 $$\tau = \mu\frac{d\overline{u}}{dy} + (-\rho\overline{u'v'}) = (\mu + \mu_t)\frac{d\overline{u}}{dy} \text{（湍流）}$$
 在完全湍流中，通常认为$\mu_t \gg \mu$，由此可知湍流中摩擦阻力增大是由雷诺应力引起的。
 **对数定律（logarithmic law）**：与管内层流类似，在管内湍流中，根据力的平衡，在半径$r$的圆柱面上作用的剪应力$\tau$与压力梯度$d\overline{p}/dx$之间存在以下关系：
 $$\tau = -\frac{r}{2}\frac{d\overline{p}}{dx} $$
 基于该关系式，虽然无法像层流那样理论推导得到速度分布的解析表达式，但可以通过实验结果来进行半经验性的分析以求出湍流的速度分布。
-
-实验表明，在管壁附近的湍流中，混合长度$l$与壁面距离$y = R - r$成正比，可假设为：
+![[流体力学-20250121201659524.png|inlL|200]] 实验表明，在管壁附近的湍流中，混合长度 $l$ 与壁面距离 $y = R - r$ 成正比，可假设为：
 $$l = ky $$
 这里的$k$为常数，称为卡门常数（Karman's constant）。在壁面附近，通常认为壁面剪应力$\tau_w \approx \tau$，并且由于$\mu_t \gg \mu$，可进行如下近似：
 $$\tau_w \approx \tau = \rho k^2 y^2\left(\frac{d\overline{u}}{dy}\right)^2 $$
 定义摩擦速度（friction velocity，符号：$u_*$ ）为：
 $$u_* = \sqrt{\frac{\tau_w}{\rho}} $$
-使用该定义，式（6.28）可改写为：
+使用该定义，可改写为：
 $$\frac{d\overline{u}}{dy} = \frac{u_*}{ky} $$
-对该式关于$y$进行积分（自然对数用$\log$表示，这里实际为$\ln$ ）：
+对该式关于  $y$ 进行积分（  $\ln=\log_{e}$ ）：
 $$\frac{\overline{u}}{u_*} = \frac{1}{k} \ln y + c $$
 通过与实验结果对比，该式在从壁面附近到管中心的区域适用。在管中心$y = R$处，$\overline{u} = u_0$，据此确定积分常数$c$，可得：
 $$\frac{u_0 - \overline{u}}{u_*} = \frac{1}{k} \ln \frac{R}{y} $$
@@ -1735,54 +1733,50 @@ $$\frac{u_0 - \overline{u}}{u_*} = 2.5 \ln \frac{R}{y} = 5.75 \log \frac{R}{y}$$
 $$\frac{\overline{u}}{u_*} = 5.75 \log \frac{u_* y}{v} + B $$
 $B$通过实验确定，约为$5.5$ 。因此，湍流的速度分布可表示为：
 $$\frac{\overline{u}}{u_*} = 5.75 \log \frac{u_* y}{v} + 5.5 \text{（湍流，对数定律）}$$
-这个速度分布公式（6.35）被称为对数定律（logarithmic law），该定律成立的区域称为湍流层（turbulent layer）。
-
-在管内湍流中，如图6.11所示，壁面附近存在流体混合受到抑制、紊流较弱的部分，该区域称为粘性底层（viscous sublayer）。粘性底层厚度很薄，在粘性底层内，与粘性剪应力$\mu d\overline{u}/dy$相比，紊流引起的雷诺应力$-\rho\overline{u'v'}$非常小，可忽略不计，因此有：
+这个速度分布公式被称为对数定律（logarithmic law），该定律成立的区域称为湍流层（turbulent layer）。
+![[流体力学-20250121201752245.png|inlL|200]] 在管内湍流中，如图6.11所示，壁面附近存在流体混合受到抑制、紊流较弱的部分，该区域称为粘性底层（viscous sublayer）。粘性底层厚度很薄，在粘性底层内，与粘性剪应力 $\mu d\overline{u}/dy$ 相比，紊流引起的雷诺应力 $-\rho\overline{u'v'}$ 非常小，可忽略不计，因此有：
 $$\tau_w \approx \tau = \mu \frac{d\overline{u}}{dy} $$
 根据边界条件：在$y = 0$（壁面）处，$\overline{u} = 0$（无滑移条件），对上述公式进行积分可得：
 $$\frac{\overline{u}}{u_*} = \frac{u_* y}{v} $$
 即粘性底层的速度分布为直线。
-
-对比式（6.35）和式（6.37）的速度分布结果，如图6.11所示。在粘性底层内，当$u_* y/v \approx 5$附近时，速度分布符合式（6.37）；随着$u_* y/v$增加，在$u_* y/v \approx 70$附近，速度分布开始过渡到对数定律的速度分布式（6.35）。式（6.37）和式（6.35）之间的中间区域称为过渡层（transition layer）或缓冲层（buffer layer），在该区域粘性作用和湍流混合作用程度相当。在管内湍流中，随着雷诺数$Re$增加，$\tau_w$和$u_*$增大，粘性底层厚度减小。根据壁面到无因次距离$u_* y/v$的大小，管内湍流的速度分布可分为以下三个区域：
-  - （i）$0 < u_* y/v < 5$：粘性底层，适用式（6.37）；
-  - （ii）$5 < u_* y/v \leq 70$：过渡层；
-  - （iii）$70 \leq u_* y/v$：湍流层，适用式（6.35）。
-
-这种湍流速度分布与雷诺数 $Re$ 无关，由于是着眼于壁面附近的流动推导得出，因此也被称为壁面定律（wall law）。
+![[流体力学-20250121203227770.png|400]]
+对比速度分布结果，如图6.11所示。在粘性底层内，当 $u_* y/v \approx 5$ 附近时，速度分布符合线性式；随着 $u_* y/v$ 增加，在 $u_* y/v \approx 70$ 附近，速度分布开始过渡到对数定律的速度分布式。中间区域称为过渡层（transition layer）或缓冲层（buffer layer），在该区域粘性作用和湍流混合作用程度相当。在管内湍流中，随着雷诺数 $Re$ 增加， $\tau_w$ 和 $u_*$ 增大，粘性底层厚度减小。根据壁面到无因次距离 $u_* \frac{y}{v}$ 的大小，管内湍流的速度分布可分为以下三个区域：
+  - （i） ${} 0 < u_* \frac{y}{v} < 5 {}$ ：粘性底层，适用线性式；
+  - （ii） ${} 5 < u_* \frac{y}{v} \leq 70 {}$ ：过渡层；
+  - （iii） $70 \leq u_* \frac{y}{v}$ ：湍流层，适用对数式。
+这种湍流速度分布与雷诺数 $Re$ 无关，由于是着眼于壁面附近的流动推导得出，因此也被称为**壁面定律**（wall law）。
 **湍流管摩擦系数（turbulent friction coefficient）**：与层流情况类似，通过速度分布来求解管摩擦系数$\lambda$ 。对对数定律的湍流速度分布式（6.32）在管断面上进行积分，可得平均流速：
 $$v = u_0 - 3.75u_* $$
-将对数定律的速度分布式（6.35）应用于管中心$y = R$处，可得：
+将对数定律的速度分布式应用于管中心$y = R$处，可得：
 $$u_0 = u_*\left(5.75 \log \frac{u_* R}{v} + 5.5\right)$$
-使用式（6.38）进行变形，可得：
+进行变形，可得：
 $$v = u_*\left(5.75 \log \frac{u_* R}{v} + 1.75\right) $$
-另一方面，将力的平衡公式（6.26）应用于壁面$r = R$（管内径$d = 2R$ ）处，结合管摩擦系数$\lambda$的定义式（6.5）进行变形，可得壁面剪应力：
+另一方面，将力的平衡公式应用于壁面$r = R$（管内径$d = 2R$ ）处，结合管摩擦系数$\lambda$的定义式进行变形，可得壁面剪应力：
 $$\tau_w = -\frac{d}{4} \frac{d\overline{p}}{dx} = \frac{1}{8} \lambda \rho v^2$$
-使用摩擦速度的公式（6.29）改写上式，可得：
+使用摩擦速度的公式改写上式，可得：
 $$\lambda = 8\left(\frac{u_*}{v}\right)^2 $$
-使用该式对式（6.39）进行变形，可得：
+使用该式进行变形，可得：
 $$\frac{u_* R}{v} = \frac{1}{2} \frac{v d}{v} \frac{u_*}{v} = Re \frac{\sqrt{\lambda}}{4 \sqrt{2}}$$
 由此可得到湍流管摩擦系数$\lambda$的表达式：
 $$\frac{1}{\sqrt{\lambda}} = 2.035 \log (Re \sqrt{\lambda}) - 0.91$$
 对该式的系数进行略微修正，可得：
 $$\frac{1}{\sqrt{\lambda}} = 2.0 \log (Re \sqrt{\lambda}) - 0.8 \text{（湍流，} Re = 3×10^3 \sim 3×10^6 \text{）} $$
-该式与雷诺数$Re = 3×10^3 - 3×10^6$范围内的实验结果吻合良好，被称为普朗特公式（Prandtl's formula）。
-
-由于壁面定律的湍流速度分布公式（6.43）包含对数，实际计算不太方便。因此，常给出一些在计算湍流管摩擦系数$\lambda$时更便利的经验公式。比如布拉修斯（Blasius）公式，在$Re = 3×10^3 - 1×10^5$范围内适用：
+![[流体力学-20250121203409588.png|inlL|200]] 该式与雷诺数 $Re = 3×10^3 - 3×10^6$ 范围内的实验结果吻合良好，被称为普朗特公式（Prandtl's formula）。
+由于壁面定律的湍流速度分布公式包含对数，实际计算不太方便。因此，常给出一些在计算湍流管摩擦系数$\lambda$时更便利的经验公式。比如布拉修斯（Blasius）公式，在$Re = 3×10^3 - 1×10^5$范围内适用：
 $$\lambda = 0.3164 Re^{-\frac{1}{4}} \text{（湍流，} Re = 3×10^3 - 8×10^4 \text{）} $$
 尼古拉兹（Nikuradse）公式，在$Re = 1×10^5 - 3×10^6$范围内适用：
 $$\lambda = 0.0032 + 0.221 Re^{-0.237}$$
 此外还有很多其他公式。图6.13展示了以上结果与实验值的对比情况。
-**指数定律（power law）**：除了对数定律的速度分布式（6.35），普朗特 - 卡门（Prandtl - Karman）通过量纲分析提出了一个更简便的湍流速度分布公式。
-
+**指数定律（power law）**：除了对数定律的速度分布式，普朗特 - 卡门（Prandtl - Karman）通过量纲分析提出了一个更简便的湍流速度分布公式。
 假设速度$\overline{u}[m/s]$是粘度$\mu[Pa·s]$、密度$\rho[kg/m^3]$、壁面剪应力$\tau_w[Pa]$以及壁面距离$y[m]$的函数，可表示为：
 $$\overline{u} = f(\mu, \rho, \tau_w, y) $$
-这里，应用壁面剪应力公式（6.40）和管摩擦系数$\lambda$的公式（6.44），可得：
+这里，应用壁面剪应力公式和管摩擦系数$\lambda$的公式，可得：
 $$\tau_w = 0.03955 \rho v^{\frac{7}{4}} v^{\frac{1}{4}} d^{-\frac{1}{4}} $$
-可近似表示为$\tau_w \propto v^m$，并假设$\overline{u} \propto \tau_w^{\frac{1}{m}}$。那么式（6.46）可表示为：
+可近似表示为$\tau_w \propto v^m$，并假设$\overline{u} \propto \tau_w^{\frac{1}{m}}$。那么可表示为：
 $$\overline{u} = B \mu^{\alpha} \rho^{\beta} y^{\gamma} \tau_w^{\frac{1}{m}}$$
 根据量纲分析，可得$\alpha = 1 - \frac{2}{m}$ ，$\beta = -1 + \frac{1}{m}$ ，$\gamma = -1 + \frac{2}{m}$ ，进而得到：
 $$\overline{u} = B\left(\frac{y}{v}\right)^{\frac{2}{m} - 1}\left(\frac{\tau_w}{\rho}\right)^{\frac{1}{m}}$$
-由式（6.47）可知$m = \frac{7}{4}$ ，代入上式可得：
+可知$m = \frac{7}{4}$ ，代入上式可得：
 $$\overline{u} \propto y^{\frac{1}{7}}$$
 考虑在管中心$y = R$处，$\overline{u} = u_0$ ，最终可得：
 $$\frac{\overline{u}}{u_0} = \left(\frac{y}{R}\right)^{\frac{1}{7}} \text{（湍流，1/7次方定律）}$$
@@ -1790,8 +1784,8 @@ $$\frac{\overline{u}}{u_0} = \left(\frac{y}{R}\right)^{\frac{1}{7}} \text{（湍
 $$\frac{\overline{u}}{u_0} = \left(\frac{y}{R}\right)^{\frac{1}{n}} $$
 指数$n$的值随雷诺数$Re$的变化如下：
 $$n = 3.45 Re^{0.07} $$
-指数定律的湍流速度分布式（6.50）不包含对数，使用起来较为方便，不过在管中心和管壁处的速度梯度$d\overline{u}/dy$实际值与对数定律有所不同。
-**粗糙管（rough pipe）**：前面讲述了具有光滑壁面（smooth surface）的管内湍流的速度分布和管摩擦系数。而实际使用的管道，如钢管等，其内壁存在凹凸不平的粗糙度（图6.14）。与层流不同，管内湍流不仅受雷诺数$Re$的影响，壁面粗糙度（wall roughness）的影响也很大。用壁面存在的凹凸突起高度$k_s$表示壁面粗糙度，壁面粗糙度$k_s$对湍流的影响可分为以下几种情况：
+指数定律的湍流速度分布式不包含对数，使用起来较为方便，不过在管中心和管壁处的速度梯度 $\frac{d\overline{u}}{dy}$ 实际值与对数定律有所不同。
+![[流体力学-20250121203621897.png|inlL|200]]**粗糙管（rough pipe）**：前面讲述了具有光滑壁面（smooth surface）的管内湍流的速度分布和管摩擦系数。而实际使用的管道，如钢管等，其内壁存在凹凸不平的粗糙度（图6.14）。与层流不同，管内湍流不仅受雷诺数 $Re$ 的影响，壁面粗糙度（wall roughness）的影响也很大。用壁面存在的凹凸突起高度 $k_s$ 表示壁面粗糙度，壁面粗糙度 $k_s$ 对湍流的影响可分为以下几种情况：
   - （i）$u_* k_s/v < 5$：粗糙度包含在粘性底层内，速度分布和管摩擦系数与水力光滑（hydraulically smooth）的管内湍流一致。
   - （ii）$5 < u_* k_s/v < 70$：管内湍流同时受相对粗糙度$k/d$和雷诺数$Re$的影响。科尔布鲁克（Colebrook）提出了如下管摩擦系数公式：
   $$\frac{1}{\sqrt{\lambda}} = -2.0 \log \left(\frac{k_s}{d} + \frac{9.34}{Re \sqrt{\lambda}}\right) + 1.14$$
