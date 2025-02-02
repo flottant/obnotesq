@@ -45,8 +45,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,8 +253,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "29d003f203745461",
+  "active": "ae795c0d9628c252",
   "lastOpenFiles": [
+    "temp.md",
     "content/流体力学/流体力学.md",
     "content/流体力学/assets/流体力学/流体力学-20250121210655783.png",
     "content/流体力学/assets/流体力学/流体力学-20250121210245388.png",
@@ -267,7 +267,6 @@
     "content/流体力学/assets/流体力学/流体力学-20250121205401171.png",
     "content/流体力学/assets/流体力学/流体力学-20250121205146026.png",
     "content/流体力学/assets/流体力学/流体力学-20250121205112715.png",
-    "temp.md",
     "content/流体力学/流体力学.md.bak",
     "content/index.md",
     "content/数学/ODE.md",
